@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Bangur cement product image">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#5d7185"/>
+      <stop offset="100%" stop-color="#2f3f51"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="#f5f8fa"/>
+  <rect x="88" y="95" width="470" height="220" rx="18" fill="url(#g)"/>
+  <rect x="120" y="130" width="140" height="150" rx="10" fill="#f2c84c"/>
+  <rect x="282" y="130" width="245" height="150" rx="10" fill="#ffffff"/>
+  <text x="145" y="208" fill="#243647" font-family="Arial, sans-serif" font-size="30" font-weight="700">B</text>
+  <text x="302" y="190" fill="#243647" font-family="Arial, sans-serif" font-size="38" font-weight="700">BANGUR</text>
+  <text x="302" y="228" fill="#243647" font-family="Arial, sans-serif" font-size="28" font-weight="700">CEMENT</text>
+  <text x="95" y="58" fill="#334a60" font-family="Arial, sans-serif" font-size="24" font-weight="700">High Strength Construction Cement</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Hardware product image">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e8eef5"/>
+      <stop offset="100%" stop-color="#ccd9e5"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#g)"/>
+  <rect x="94" y="98" width="450" height="210" rx="18" fill="#fefefe" stroke="#c9d4df"/>
+  <text x="132" y="186" fill="#233a50" font-family="Arial, sans-serif" font-size="44" font-weight="700">ANIL HARDWARE</text>
+  <text x="132" y="232" fill="#3f556a" font-family="Arial, sans-serif" font-size="28" font-weight="700">Quality Materials and Tools</text>
+  <text x="132" y="272" fill="#3f556a" font-family="Arial, sans-serif" font-size="22" font-weight="700">J7PG+547, New Market, Patratu, Jharkhand 829119</text>
+</svg>

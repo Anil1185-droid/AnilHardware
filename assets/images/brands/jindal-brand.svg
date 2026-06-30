@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-label="Jindal">
+  <rect width="320" height="120" rx="18" fill="#f5f7f9"/>
+  <rect x="22" y="24" width="68" height="72" rx="10" fill="#30363f"/>
+  <text x="34" y="69" fill="#f4be57" font-family="Arial, sans-serif" font-size="38" font-weight="700">J</text>
+  <text x="104" y="54" fill="#2f445a" font-family="Arial, sans-serif" font-size="30" font-weight="700">JINDAL</text>
+  <text x="104" y="84" fill="#2f445a" font-family="Arial, sans-serif" font-size="24" font-weight="700">PANTHER</text>
+</svg>

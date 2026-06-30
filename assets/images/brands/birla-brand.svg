@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-label="Birla White">
+  <rect width="320" height="120" rx="18" fill="#f5f9fd"/>
+  <rect x="22" y="24" width="68" height="72" rx="10" fill="#0f4e8f"/>
+  <text x="102" y="54" fill="#2a445f" font-family="Arial, sans-serif" font-size="30" font-weight="700">BIRLA</text>
+  <text x="102" y="84" fill="#2a445f" font-family="Arial, sans-serif" font-size="24" font-weight="700">WHITE</text>
+</svg>

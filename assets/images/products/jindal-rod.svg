@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Jindal rod product image">
+  <rect width="640" height="400" fill="#f4f7f9"/>
+  <rect x="86" y="85" width="470" height="230" rx="22" fill="#303640"/>
+  <g stroke="#f2b44d" stroke-width="11">
+    <line x1="116" y1="124" x2="526" y2="124"/>
+    <line x1="116" y1="167" x2="526" y2="167"/>
+    <line x1="116" y1="210" x2="526" y2="210"/>
+    <line x1="116" y1="253" x2="526" y2="253"/>
+    <line x1="116" y1="296" x2="526" y2="296"/>
+  </g>
+  <text x="124" y="332" fill="#2a313a" font-family="Arial, sans-serif" font-size="32" font-weight="700">JINDAL PANTHER TMT ROD</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-label="Bangur">
+  <rect width="320" height="120" rx="18" fill="#f3f7fa"/>
+  <rect x="20" y="22" width="68" height="76" rx="10" fill="#354e69"/>
+  <text x="43" y="70" fill="#f2cb64" font-family="Arial, sans-serif" font-size="38" font-weight="700">B</text>
+  <text x="104" y="54" fill="#2f4358" font-family="Arial, sans-serif" font-size="30" font-weight="700">BANGUR</text>
+  <text x="104" y="84" fill="#2f4358" font-family="Arial, sans-serif" font-size="24" font-weight="700">CEMENT</text>
+</svg>

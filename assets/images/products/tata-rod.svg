@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Tata Tiscon rod product image">
+  <rect width="640" height="400" fill="#f4f8fc"/>
+  <rect x="80" y="88" width="478" height="230" rx="20" fill="#25466b"/>
+  <g stroke="#b2c6da" stroke-width="12">
+    <line x1="120" y1="130" x2="520" y2="130"/>
+    <line x1="120" y1="175" x2="520" y2="175"/>
+    <line x1="120" y1="220" x2="520" y2="220"/>
+    <line x1="120" y1="265" x2="520" y2="265"/>
+  </g>
+  <text x="118" y="332" fill="#1f3d5d" font-family="Arial, sans-serif" font-size="32" font-weight="700">TATA TISCON TMT ROD</text>
+</svg>

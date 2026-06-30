@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-label="Berger">
+  <rect width="320" height="120" rx="18" fill="#fff4f4"/>
+  <rect x="22" y="24" width="64" height="72" rx="10" fill="#d8202a"/>
+  <text x="106" y="70" fill="#324960" font-family="Arial, sans-serif" font-size="34" font-weight="700">BERGER</text>
+</svg>

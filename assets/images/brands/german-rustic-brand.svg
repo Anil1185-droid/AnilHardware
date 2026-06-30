@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-label="German Rustic">
+  <rect width="320" height="120" rx="18" fill="#f7f1e8"/>
+  <rect x="22" y="24" width="68" height="72" rx="10" fill="#7d5c40"/>
+  <path d="M32 42 h48 M32 58 h48 M32 74 h48" stroke="#f0dcc4" stroke-width="4"/>
+  <text x="104" y="54" fill="#5a402c" font-family="Arial, sans-serif" font-size="28" font-weight="700">GERMAN</text>
+  <text x="104" y="84" fill="#5a402c" font-family="Arial, sans-serif" font-size="24" font-weight="700">RUSTIC</text>
+</svg>
