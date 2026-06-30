@@ -1,0 +1,16 @@
+{
+  "name": "Anil Hardware",
+  "short_name": "AnilHardware",
+  "description": "Hardware and construction material store in J7PG+547, New Market, Patratu, Jharkhand 829119",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f8f4ec",
+  "theme_color": "#0f1720",
+  "icons": [
+    {
+      "src": "assets/icons/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ]
+}

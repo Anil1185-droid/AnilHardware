@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products | Anil Hardware</title>
+  <meta name="description" content="Browse cement, rods, paints, putty, emulsion and all home-making products at Anil Hardware, Patratu.">
+  <meta name="theme-color" content="#0f1720">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/icon.svg">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <div class="top-strip">
+      <div class="container top-strip__inner">
+        <p>Trusted building materials partner for homes, shops, and contractors.</p>
+        <div class="top-strip__meta">
+          <a href="tel:+910000000000">Call for orders</a>
+          <span aria-hidden="true">|</span>
+          <a href="https://maps.google.com/?q=J7PG%2B547,+New+Market,+Patratu,+Jharkhand+829119" target="_blank" rel="noopener">J7PG+547, New Market, Patratu, Jharkhand 829119</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Anil Hardware home">
+        <span class="brand__mark" aria-hidden="true">AH</span>
+        <span class="brand__text">
+          <strong>Anil Hardware</strong>
+          <small>Everything for Home Making</small>
+        </span>
+      </a>
+
+      <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="site-nav">
+        <a href="products.html">Products</a>
+        <a href="brands.html">Brands</a>
+        <a href="services.html">Services</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <button class="btn btn--small btn--outline" id="quote-toggle" type="button">
+          Get Quote <span class="quote-count" id="quote-count" aria-live="polite">0</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero container reveal page-hero">
+      <div class="hero__content">
+        <p class="eyebrow">PRODUCTS</p>
+        <h1>Browse full inventory in one place.</h1>
+        <p>Search by brand, category, and application area. Add items to estimate list or order directly via WhatsApp.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="brands.html">View Brand Offers</a>
+          <a class="btn btn--ghost" href="contact.html">Need Expert Suggestion</a>
+        </div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <article class="hero-card">
+          <h3>One Click Order</h3>
+          <p>Choose a product and order instantly on WhatsApp.</p>
+        </article>
+        <article class="hero-card">
+          <h3>Quote Builder</h3>
+          <p>Add multiple products and send one consolidated requirement list.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="category-strip container reveal" id="categories">
+      <div class="section-head section-head--tight">
+        <div>
+          <p class="eyebrow">SHOP BY NEED</p>
+          <h2>Material Categories</h2>
+        </div>
+      </div>
+      <div class="chips" id="category-chips" aria-label="Product category filters"></div>
+    </section>
+
+    <section class="products container reveal" id="products">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">INVENTORY</p>
+          <h2>Featured Product Catalog</h2>
+          <p>Search by product name, brand, or usage. Build your estimate list in one click.</p>
+        </div>
+
+        <div class="product-tools">
+          <label for="product-search" class="sr-only">Search products</label>
+          <input type="search" id="product-search" placeholder="Search paint, cement, rod, putty..." autocomplete="off">
+
+          <label for="sort-products" class="sr-only">Sort products</label>
+          <select id="sort-products">
+            <option value="featured">Sort: Featured</option>
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="rating">Top Rated</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="product-grid" id="product-grid" aria-live="polite"></div>
+      <p class="empty-state" id="product-empty" hidden>No matching products found. Try another keyword or category.</p>
+    </section>
+  </main>
+
+  <aside class="quote-drawer" id="quote-drawer" aria-hidden="true" aria-label="Quote request panel">
+    <div class="quote-drawer__header">
+      <h2>Estimate List</h2>
+      <button class="icon-btn" id="quote-close" type="button" aria-label="Close quote panel">x</button>
+    </div>
+
+    <div class="quote-drawer__body">
+      <ul id="quote-list" class="quote-list"></ul>
+      <p class="quote-empty" id="quote-empty">No products added yet.</p>
+
+      <form id="quote-form" class="quote-form" novalidate>
+        <h3>Request a Callback</h3>
+        <label for="quote-name">Name</label>
+        <input id="quote-name" name="quoteName" type="text" required>
+
+        <label for="quote-phone">Mobile Number</label>
+        <input id="quote-phone" name="quotePhone" type="tel" inputmode="numeric" required>
+
+        <label for="quote-location">Delivery Area</label>
+        <input id="quote-location" name="quoteLocation" type="text" placeholder="Patratu / nearby area" required>
+
+        <label for="quote-notes">Project Notes</label>
+        <textarea id="quote-notes" name="quoteNotes" rows="3" placeholder="Optional details about your site"></textarea>
+
+        <input id="quote-items-field" name="quoteItems" type="hidden">
+
+        <button class="btn btn--primary" type="submit">Submit Estimate Request</button>
+        <button class="btn btn--text" type="button" id="clear-quote">Clear list</button>
+        <p class="form-note">Submitting opens WhatsApp with your selected products.</p>
+        <output class="form-status" id="quote-status" aria-live="polite"></output>
+      </form>
+    </div>
+  </aside>
+
+  <div class="drawer-overlay" id="drawer-overlay" hidden></div>
+
+  <a class="whatsapp-float" id="whatsapp-float" href="https://wa.me/910000000000?text=Hello%20Anil%20Hardware%2C%20I%20need%20material%20details." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    WhatsApp
+  </a>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>
+        <h3>Anil Hardware</h3>
+        <p>J7PG+547, New Market, Patratu, Jharkhand 829119</p>
+      </div>
+      <p>Copyright <span id="current-year"></span> Anil Hardware. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
